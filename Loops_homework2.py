@@ -42,7 +42,8 @@ while use_library:
         for book in books:
             print book
 
-        #for some reason this for book in books: didn't work the first few times...couldn't figure out why
+        #for some reason this for book in books: didn't work the first
+        #few times...couldn't figure out why
         
 
         # num_books = len(books)
@@ -58,8 +59,8 @@ while use_library:
         print "Check for a book"
 
         book_name = raw_input("Which book do you want to check? > ")
-        # book_name = book_name.lower()
-        # this lower() doesn't work because python is looking for an exact match.
+        # book_name = book_name.lower() this lower() doesn't work
+        # because python is looking for an exact match.
 
         if book_name in books:
             print "We found:", book_name
